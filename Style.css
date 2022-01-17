@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background: #fca4ac;
+  color: #fcf8fa;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  color: #fff;
+  height: 8rem;
+  font-weight: bold;
+}
+
+.header-l a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-r {
+}
+
+.header-r ul {
+  display: flex;
+}
+
+.header-r ul li {
+  padding: 0 3rem;
+  list-style: none;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.header-bottom {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 8rem);
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  color: #fff;
+}
+
+.header-bottom > * {
+  flex: 50%;
+}
+
+.bottom-l h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+
+.bottom-l p {
+  font-size: 1.7rem;
+  margin-bottom: 3rem;
+}
+
+.bottom-l button {
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 1.5rem 2.5rem;
+  color: #fff;
+  background: #a83e51;
+  border: none;
+  border-radius: 1rem;
+}
+
+.bottom-r {
+  /* position: relative; */
+}
+
+.bottom-r > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+}
+
+.bottom-r > div img {
+  width: 100%;
+}
